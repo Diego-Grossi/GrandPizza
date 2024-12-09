@@ -33,7 +33,6 @@ header h1 {
     font-weight: 400;
 }
 
-
 body header nav ul {
     list-style: none;
     font-style: normal;
@@ -308,14 +307,6 @@ footer h4 {
         display: none;
     }
 
-    .productos div img {
-        /* display: none; */
-    }
-
-    .productos-contenedor div p {
-        /* display: none; */
-    }
-
     .productos h3 {
         font-size: 20px;
     }
@@ -340,7 +331,7 @@ footer h4 {
 
     .footer {
         display: flex;
-        
+
     }
 
     .footer div a img {
@@ -384,7 +375,7 @@ footer h4 {
         margin: 5px;
         box-shadow: 0px 0px 20px 9px #000000;
     }
-    
+
     .productos div img {
         width: 120px;
         height: 120px;
@@ -435,7 +426,7 @@ footer h4 {
         margin: 5px;
         box-shadow: 0px 0px 20px 9px #000000;
     }
-    
+
     .productos div img {
         width: 120px;
         height: 120px;
