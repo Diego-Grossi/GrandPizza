@@ -1,4 +1,23 @@
-/*! VARIABLES*/
+//* VARIABLES
 $color-1: red;
 $color-2: white;
 $color-3: black;
+$color-4: yellow; 
+
+//* LISTAS
+$colores: red, green, blue, yellow, black, white;
+$font-size: 12px, 16px, 20px, 30px;
+
+//* EXTENDS
+%center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+//* MIXIN
+@mixin flex ($flex, $justify, $align) {
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
