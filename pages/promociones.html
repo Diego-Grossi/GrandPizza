@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="../css/estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Grand Pizza │ Promociones</title>
 </head>
 
 <body>
@@ -27,27 +28,28 @@
     </header>
     <main>
         <section class="galeria-grid">
-            <div class="imgrid1a">
+            <div class="imgrid1a" data-aos="zoom-out">
                 <img src="../img/imgrid1a.jpg" alt="Promo1">
                 <h3>Promo 1</h3>
-                </div>
-            <div>
+            </div>
+            <div data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
                 <img src="../img/imgrid2a.webp" alt="Promo2">
                 <h3>Promo 2</h3>
             </div>
-            <div class="imgrid3a">
+            <div class="imgrid3a" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                 <img src="../img/imgrid3a.webp" alt="Promo3">
                 <h3>Promo 3</h3>
             </div>
-            <div>
+            <div data-aos="zoom-in">
                 <img src="../img/imgrid4a.jpg" alt="Promo4">
                 <h3>Promo 4</h3>
             </div>
-            <div class="imgrid5a">
+            <div class="imgrid5a" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"
+                data-aos-duration="500">
                 <img src="../img/imgrid5a.png" alt="Promo5">
                 <h3>Promo 5</h3>
             </div>
-            <div class="imgrid6a">
+            <div class="imgrid6a" data-aos="fade-up" data-aos-duration="500">
                 <img src="../img/imgrid6a.jpg" alt="Promo">
                 <h3>Promo 6</h3>
             </div>
@@ -72,6 +74,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

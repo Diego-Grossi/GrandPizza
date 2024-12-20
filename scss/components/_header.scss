@@ -26,6 +26,7 @@ header {
             font-style: normal;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             display: flex;
+            font-weight: bold;
 
             li {
                 margin: 10px;
@@ -34,6 +35,10 @@ header {
                     text-decoration: none;
                     font-family: Verdana, Geneva, Tahoma, sans-serif;
                     color: white;
+                    transition: 0.5s;
+                }
+                a:hover {
+                    color: green;
                 }
             }
         }
